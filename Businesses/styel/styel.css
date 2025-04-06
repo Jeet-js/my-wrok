@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+font-family: "Montserrat", sans-serif;
+font-family: "Poppins", sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 400 16px/1.5 "Poppins", sans-serif;;
+    color: #515151;
+}
+
+
+ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+img{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+h2{
+    color: #fff;
+    font-size: 52px;
+    line-height: 52px;
+}
+
+/*----------HEADER TOP--------------*/
+
+.headerTop{
+    position: sticky;
+    height: 75px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.container{
+    width: 1300px;
+    margin: auto;
+}
+
+.headerTop .container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 17px;   
+}
+
+.mainNav ul li{
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 75px;
+}
+
+.mainNav ul li a{
+    color: #1e1e1e;
+    font-size: 16px;
+}
+
+.mainNav ul li a:hover{
+    border-bottom: solid 2px #cf8d00;
+    color: #cf8d00;
+}
+
+.but{
+    background-color: #cf8d00;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 38px;
+    margin-top: 14px;
+}
+
+.but:hover{
+    background-color: #1e1e1e;
+    color: #cf8d00;
+}
+/*--Login From--*/
+
+.loginForm{
+    
+    position: fixed;
+    width: 300px;
+    height:100%;
+    background-color:rgba(152, 120, 46, 0.807) ;
+    top: 0;
+    right:-301px;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+    transition: all 1s;
+}
+
+.loginForm h3{
+    color: #000;
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.loginForm samp{
+    display: block;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.loginForm .inputBx{
+    border: 0;
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    font-family:  "Poppins", sans-serif;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.loginForm .submit{
+    border: 0;
+    width: 100%;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    padding: 5px 15px ;
+    margin: 15px auto 0 auto;
+    border-radius: 50px;
+    background-color: #d1bc1e;
+    color: #000;
+}
+
+.loginForm .submit:hover{
+    background-color: #2d2d2d;
+    color: #fff;
+    cursor: pointer;
+}
+
+.close{
+    display: block;
+    background-color: #2d2d2d;
+    color: #fff!important;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    line-height: 30px;
+    float: left;
+}
+
+.close:hover{
+    background-color: #fff;
+    color: #000!important;
+}
+/*------HERO SECTION--------*/
+
+.banner{
+    background-color: #2d2d2d;
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: auto 50%;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.banner h1{
+    font-size: 116px;
+    line-height: 130px;
+    color: #fff;
+    padding: 187px 0 0 117px;
+}
+
+/*-------Section02-------*/
+
+.ourSection{
+    padding: 100px 0;
+}
+
+.ourSection .container{
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-gap: 70px;
+}
+
+
+.ourSection h2{
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.ourSection .container .ourvision, .ourSection .container .ourgoal{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ourSection div{
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+
+
+
+/*-------Section03-------*/
+
+.bannervideo{
+    background-color: #cf8d00;
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+.bannertxt{
+    margin: auto;
+    padding: 0 99px 0 166px;
+}
+
+.bannertxt a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+
+}
+.bannertxt h2{
+    padding-top: 15px;
+}
+
+.bannertxt p{
+    padding-top: 45px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/*-------Section03-------*/
+
+.ourteam{
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.teamArea{
+    display: grid;
+    grid-template-columns: 351px auto;
+    grid-gap: 75px;
+    margin-top: 25px;
+}
+
+.teamabout{
+    padding: 75px 0 0 0;
+}
+
+.teamabout h4{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.teamabout p{
+    padding-top:20px ;
+    margin-top: 10px;
+}
+
+.members li{
+    float: left;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 10px 0;
+    border-bottom: solid 1px #1f1f1f;
+    
+}
+
+
+
+.members li img{
+    float: left;
+    width: 40%;
+    max-width: 79px;
+}
+
+.members li div{
+    float: right;
+    width: 60%;
+    color: #333333;
+}
+
+.members li div h4{
+    color: #737373;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.members li:hover, .members li.active{
+    border-bottom: solid 2px #725311;
+}
+
+.members li:hover div{
+    color: #d29104;
+}
+
+.members li:hover div h4{
+    color: #fff;
+}
+
+/***--------Section04---------***/
+
+.Studies{
+    padding-top: 40px;
+}
+
+.Studies h2{
+    padding-bottom: 35px;
+    color: #000000;
+    justify-content: center;
+    text-align: center;
+}
+
+.herocase{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.mostracent{
+    background-color: #111010f6;
+}
+
+.mostracent h6{
+    color: #fff;
+    font-size: 23px;
+    font-weight: 400;
+    padding: 40px 50px 0 0 ;
+    float: right;
+}
+
+.mostracent  h5 samp{
+    color: #cf8d00;
+    font-size: 16px;
+}
+
+.mostcon {
+    padding: 128px 0 0 40px;
+    margin: auto;
+}
+
+.mostcon h4{
+    padding-right: 90px;
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.mostcon p{
+    padding: 20px 90px 0 0 ;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.mostcon a{
+    padding-top: 25px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.item{
+    display: grid;
+    grid-template-columns: 30% 30% auto;
+    grid-gap: 45px;
+    padding-top: 55px;
+}
+
+.business{
+    margin: auto;
+}
+
+.business h5 samp{
+    padding-top: 15px;
+    color: #555555;
+    font-size: 16px;
+}
+
+.business h4{
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 800;
+}
+
+.business p{
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #555555;
+}
+
+.business a{
+    padding-top: 15px;
+    color:#555555 ;
+}
+
+.itembut{
+    padding: 75px;
+    display: block;
+    text-align: center;
+}
+
+.itembut .but{
+    
+    height: 50px;
+    line-height: 50px;
+    padding: 0 38px;
+    margin-top: 14px;
+    background-color: #fff;
+    color: #000000;
+}
+
+.itembut .but:hover{
+    background-color: #000000;
+    color: #fff;
+}
+
+/**-------------------**/
+
+
+
+.footerNav{
+    padding: 75px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 45px;
+    
+}
+
+.manilink h5{
+    font-size: 16px;
+    font-weight: 800;
+    color: #000000;
+    padding-bottom: 12px;
+}
+
+.manilink li{
+    color: #262626;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.otherlinks h5{
+    font-size: 16px;
+    font-weight: 800;
+    color: #000000;
+    padding-bottom: 12px;
+}
+
+.otherlinks li{
+    color: #262626;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.contact h5{
+    font-size: 16px;
+    font-weight: 800;
+    color: #000000;
+    padding-bottom: 12px;
+} 
+
+.contact p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #262626;
+    padding-bottom: 15px;
+}
+
+.contact li{  
+    color: #262626;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.contactWith h5{
+    font-size: 16px;
+    font-weight: 800;
+    color: #000000;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.conimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+}
+
+ .conimg img{
+    margin: 5px;
+    
+ }
+
+
+ .end{
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+
+ }
+
+ .end p{
+    color: #383838;
+    font-size: 12px;
+ }
+
+ .memberdetaies{
+    display: none;
+ }
+ 
+.mainNav ul li{
+    position: relative;
+}
+
+
+.mainNav ul li .subNav{
+    position: absolute;
+    width: 200px;
+    top: 75px;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 9999;
+    display: none;
+    
+ }
+
+ .mainNav ul li .subNav li{
+    display: block;
+    padding: 0 10px;
+    line-height: 50px;
+ }
+
+ .mainNav ul li .subNav li:hover{
+    background-color: #cf8d00;
+ }
+ .mainNav ul li .subNav li:hover a{
+    color: #fff;
+ }
+
+
+ .aboutCom{
+    display: none;
+ }
